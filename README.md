@@ -17,12 +17,26 @@
   </p>
 </div>
 
-<h3 align="left"><img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="30px"/> Known Languages</h3>
+<h3 align="left"><img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="30px"/> Programming Skillset</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54" alt="Python"/>
   <img src="https://img.shields.io/badge/java-%23ED8B00.svg?logo=java&logoColor=white" alt="Java"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/latex-%23008080.svg?logo=latex&logoColor=white" alt="LaTeX"/>
+</p>
+
+---
+<h3 align="left"><img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="30px"/> Software Skillset</h3>
+<p align="center">
+
+  <img src="https://images.icon-icons.com/3053/PNG/512/microsoft_visual_studio_code_macos_bigsur_icon_189957.png" alt="Visual Studio Code" width="42"/>
+  <img src="https://images.icon-icons.com/3053/PNG/512/intellij_macos_bigsur_icon_190061.png" alt="JetBrains IntelliJ IDEA" width="42"/>
+  <img src="https://images.icon-icons.com/3053/PNG/512/intellij_pycharm_macos_bigsur_icon_190055.png" alt="JetBrains PyCharm" width="42"/>
+  <img src="https://images.icon-icons.com/3053/PNG/512/intellij_clion_macos_bigsur_icon_190059.png" alt="JetBrains CLion" width="42"/>
+  <img src="https://images.icon-icons.com/3053/PNG/512/android_studio_macos_bigsur_icon_189484.png" alt="Android Studio" width="42"/>
+  <img src="" alt=""/>
+  <img src="" alt=""/>
+  <img src="" alt=""/>
 </p>
 
 ---
