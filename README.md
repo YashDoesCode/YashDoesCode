@@ -19,14 +19,14 @@
 
 <h3 align="left"><img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="30px"/> Programming Skillset</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/python-3670A0?logo=python&logoColor=ffdd54" alt="Python"/>
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?logo=java&logoColor=white" alt="Java"/>
+  <img src="https://images.icon-icons.com/2530/PNG/512/python_button_icon_151925.png" alt="Python" width="67px"/>
+  <img src="https://images.icon-icons.com/2530/PNG/512/java_button_icon_151928.png" alt="Java" width="55px"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/latex-%23008080.svg?logo=latex&logoColor=white" alt="LaTeX"/>
 </p>
 
 ---
-<h3 align="left"><img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="30px"/> Software Skillset</h3>
+<h3 align="left"><img src="" width="30px"/> Software Skillset</h3>
 <p align="center">
 
   <img src="https://images.icon-icons.com/3053/PNG/512/microsoft_visual_studio_code_macos_bigsur_icon_189957.png" alt="Visual Studio Code" width="42"/>
@@ -34,7 +34,10 @@
   <img src="https://images.icon-icons.com/3053/PNG/512/intellij_pycharm_macos_bigsur_icon_190055.png" alt="JetBrains PyCharm" width="42"/>
   <img src="https://images.icon-icons.com/3053/PNG/512/intellij_clion_macos_bigsur_icon_190059.png" alt="JetBrains CLion" width="42"/>
   <img src="https://images.icon-icons.com/3053/PNG/512/android_studio_macos_bigsur_icon_189484.png" alt="Android Studio" width="42"/>
-    <img src="https://images.icon-icons.com/2107/PNG/512/file_type_git_icon_130581.png" alt="Git Bash" width="42"/>
+  <img src="https://images.icon-icons.com/2107/PNG/512/file_type_git_icon_130581.png" alt="Git Bash" width="42"/>
+  <img src="https://github.com/user-attachments/assets/d39df8a6-84fa-4314-8086-12baae56b904" alt="Eclipse" width="42"/>
+  <img src="https://github.com/user-attachments/assets/4a44968f-8a21-4d57-a49e-41aa8ff82d20" alt="Sublime Text" width="42"/>
+  <img src="https://github.com/user-attachments/assets/5ac1e49f-c5c6-423d-9419-22d22ad27877" alt="BlueJ" width="40"/>
   <img src="" alt=""/>
   <img src="" alt=""/>
 </p>
@@ -54,18 +57,6 @@
 
 ---
 
-<h3 align="left"><img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="30px"/> Known IDE's</h3>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/204ef0ec-fc08-46a4-a0eb-b493854ecab2" alt="IntelliJ IDEA" width="42"/>
-  <img src="https://github.com/user-attachments/assets/d793b036-c9b0-4c31-996f-e5411c2c64a1" alt="Visual Studio Code" width="42"/>
-  <img src="https://github.com/user-attachments/assets/bf612798-73c2-40ca-8b7c-030b84840f3d" alt="PyCharm" width="42"/>
-  <img src="https://github.com/user-attachments/assets/d39df8a6-84fa-4314-8086-12baae56b904" alt="Eclipse" width="42"/>
-  <img src="https://github.com/user-attachments/assets/4a44968f-8a21-4d57-a49e-41aa8ff82d20" alt="Sublime Text" width="42"/>
-  <img src="https://github.com/user-attachments/assets/5ac1e49f-c5c6-423d-9419-22d22ad27877" alt="BlueJ" width="40"/>
-</p>
-
----
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/theyashsrivastava07"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="25" width="100" alt="theyashsrivastava07" /></a></p><br><br>
 
