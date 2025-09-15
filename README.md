@@ -9,11 +9,11 @@
 
 <div align="Center">
   <p style="max-width: 700px; text-align: center;">
-    I'm a 17-year-old coder and content creator with a passion for both coding and digital media. 
-    <br>
-    My programming skills include Core Java, Python, HTML, and LaTeX. I'm also proficient in industry-standard software such as Adobe Premiere Pro, Lightroom, Audition, Photoshop, HitFilm Express, Photopea, Canva etc
+    I'm an 18-year-old self-taught developer pursuing B.Tech in Computer Science & AI at Newton School of Technology × Rishihood University (2025-2029). I began coding in 2020 and specialize in Python, Java, HTML/CSS, and LaTeX with a perfectionist approach to development.
     <br><br>
-    I'm always eager to take on new projects and expand my skills in technology and media. Let's build something amazing together!
+    Currently expanding my skills in Database Management Systems through Scaler Online certification while actively participating in my university's Robotics Club. I also bring creative expertise through proficiency in Adobe Creative Suite and multimedia production.
+    <br><br>
+    My repositories feature personal projects, client work, and early creative content. With C2-level English proficiency, I'm well-equipped for global collaboration and open-source contributions. I'm passionate about building efficient solutions and continuously learning new technologies.
   </p>
 </div>
 
