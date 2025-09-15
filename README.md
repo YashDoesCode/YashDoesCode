@@ -1,4 +1,4 @@
-![LinkedIn Banner -ThinkBuildScale](https://github.com/user-attachments/assets/d97a1f0c-1efb-4712-8dde-f40900350e0d)<h1 align="center">Hi <img src="https://github.com/kotisyamala/kotisyamala/blob/master/images/hi.gif" width="30px"/>, I'm Yash Srivastava</h1>
+<h1 align="center">Hi <img src="https://github.com/kotisyamala/kotisyamala/blob/master/images/hi.gif" width="30px"/>, I'm Yash Srivastava</h1>
 <h3 align="center">A Professional Video/SFX Editor & Amateur Coder in Industry-leading Languages</h3>
 
 <p align="center">
