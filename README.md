@@ -4,7 +4,7 @@
 <p align="center">
   <div style="display:inline-block; border-radius:65px; overflow:hidden;">
     <img 
-      src="https://github.com/user-attachments/assets/a2fa99d6-a645-49e0-a618-45d25139cb7b"
+      src="https://github.com/user-attachments/assets/a70accc2-2ca2-4dd4-9785-c521277669e2"
       alt="Coding GIF" 
     />
   </div>
