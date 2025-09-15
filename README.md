@@ -1,10 +1,10 @@
-<h1 align="center">Hi <img src="https://github.com/kotisyamala/kotisyamala/blob/master/images/hi.gif" width="30px"/>, I'm Yash Srivastava</h1>
+![LinkedIn Banner -ThinkBuildScale](https://github.com/user-attachments/assets/d97a1f0c-1efb-4712-8dde-f40900350e0d)<h1 align="center">Hi <img src="https://github.com/kotisyamala/kotisyamala/blob/master/images/hi.gif" width="30px"/>, I'm Yash Srivastava</h1>
 <h3 align="center">A Professional Video/SFX Editor & Amateur Coder in Industry-leading Languages</h3>
 
 <p align="center">
   <div style="display:inline-block; border-radius:65px; overflow:hidden;">
     <img 
-      src="https://github.com/user-attachments/assets/f9356f77-6b88-4787-a9ad-809da18462f3" <img width="1584" height="396" alt="Banner 4K (1)" src="/>" 
+      src="https://github.com/user-attachments/assets/a2fa99d6-a645-49e0-a618-45d25139cb7b"
       alt="Coding GIF" 
     />
   </div>
