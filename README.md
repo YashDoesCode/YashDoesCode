@@ -34,7 +34,7 @@
   <img src="https://images.icon-icons.com/3053/PNG/512/intellij_pycharm_macos_bigsur_icon_190055.png" alt="JetBrains PyCharm" width="42"/>
   <img src="https://images.icon-icons.com/3053/PNG/512/intellij_clion_macos_bigsur_icon_190059.png" alt="JetBrains CLion" width="42"/>
   <img src="https://images.icon-icons.com/3053/PNG/512/android_studio_macos_bigsur_icon_189484.png" alt="Android Studio" width="42"/>
-  <img src="" alt=""/>
+    <img src="https://images.icon-icons.com/2107/PNG/512/file_type_git_icon_130581.png" alt="Git Bash" width="42"/>
   <img src="" alt=""/>
   <img src="" alt=""/>
 </p>
