@@ -9,7 +9,7 @@
 
 <div align="Center">
   <p style="max-width: 700px; text-align: center;">
-    I'm an 18-year-old self-taught developer pursuing B.Tech in Computer Science & AI at Newton School of Technology × Rishihood University (2025-2029). I began coding in 2020 and specialize in Python, Java, HTML/CSS, and LaTeX with a perfectionist approach to development.
+    I'm an 18-year-old self-taught developer pursuing B.Tech in Computer Science & AI at Newton School of Technology × Rishihood University (2025-2029). I began coding in 2020 and specialize in Python, Java, HTML, and LaTeX with a perfectionist approach to development.
     <br><br>
     Currently expanding my skills in Database Management Systems through Scaler Online certification while actively participating in my university's Robotics Club. I also bring creative expertise through proficiency in Adobe Creative Suite and multimedia production.
     <br><br>
