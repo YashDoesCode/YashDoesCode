@@ -35,9 +35,7 @@
   <img src="https://images.icon-icons.com/3053/PNG/512/intellij_clion_macos_bigsur_icon_190059.png" alt="JetBrains CLion" width="42"/>
   <img src="https://images.icon-icons.com/3053/PNG/512/android_studio_macos_bigsur_icon_189484.png" alt="Android Studio" width="42"/>
   <img src="https://images.icon-icons.com/2107/PNG/512/file_type_git_icon_130581.png" alt="Git Bash" width="42"/>
-  <img src="https://github.com/user-attachments/assets/d39df8a6-84fa-4314-8086-12baae56b904" alt="Eclipse" width="42"/>
   <img src="https://github.com/user-attachments/assets/4a44968f-8a21-4d57-a49e-41aa8ff82d20" alt="Sublime Text" width="42"/>
-  <img src="https://github.com/user-attachments/assets/5ac1e49f-c5c6-423d-9419-22d22ad27877" alt="BlueJ" width="40"/>
   <img src="" alt=""/>
   <img src="" alt=""/>
 </p>
