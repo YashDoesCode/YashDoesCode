@@ -1,8 +1,13 @@
 <h1 align="center">Hi <img src="https://github.com/kotisyamala/kotisyamala/blob/master/images/hi.gif" width="30px"/>, I'm Yash Srivastava</h1>
 <h3 align="center">A Professional Video/SFX Editor & Amateur Coder in Industry-leading Languages</h3>
 
-<p align="Center">
-  <img width="200" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjFhNXYyb2Zrcmh6ZGQzOG84MGhuM2gzN3ZkdnNzbGl0Z3ZpanE4OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/UCQ5LookOT2ufbsGiT/giphy.webp" alt="Coding GIF"/>
+<p align="center">
+  <div style="display:inline-block; border-radius:65px; overflow:hidden;">
+    <img 
+      src="https://github.com/user-attachments/assets/7748cd71-272b-4634-b017-f5e9de553223" 
+      alt="Coding GIF" 
+    />
+  </div>
 </p>
 
 ![Profile views](https://komarev.com/ghpvc/?username=YashDoesCode&label=Profile%20views&color=0e75b6&style=flat)
@@ -19,10 +24,11 @@
 
 <h3 align="left"><img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="30px"/> Programming Skillset</h3>
 <p align="center">
-  <img src="https://images.icon-icons.com/2530/PNG/512/python_button_icon_151925.png" alt="Python" width="67px"/>
-  <img src="https://images.icon-icons.com/2530/PNG/512/java_button_icon_151928.png" alt="Java" width="55px"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/latex-%23008080.svg?logo=latex&logoColor=white" alt="LaTeX"/>
+  <img src="https://images.icon-icons.com/2530/PNG/512/python_button_icon_151925.png" alt="Python" width="90px"/>
+  <img src="https://images.icon-icons.com/2530/PNG/512/java_button_icon_151928.png" alt="Java" width="70px"/>
+  <img src="https://images.icon-icons.com/2530/PNG/512/html_button_icon_151929.png" alt="HTML5" width="80px"/>
+  <img src="https://img.shields.io/badge/latex-%23008080.svg?logo=latex&logoColor=white" alt="LaTeX" width="70px"/>
+  
 </p>
 
 ---
