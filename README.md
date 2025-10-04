@@ -4,8 +4,8 @@
 <p align="center">
   <div style="display:inline-block; border-radius:65px; overflow:hidden;">
     <img 
-      src="https://github.com/user-attachments/assets/a70accc2-2ca2-4dd4-9785-c521277669e2"
-      alt="Coding GIF" 
+      src="https://github.com/user-attachments/assets/5761cba6-c90c-4534-acc6-c6c2602d2b10"
+      alt="Banner -Dark Times" 
     />
   </div>
 </p>
