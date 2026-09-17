@@ -37,7 +37,7 @@
 </div>
 
 <p align="center">
-  <img alt="Total Activity Graph" src="./assets/activity-graph.svg" width="100%" />
+  <img alt="Total Activity Graph" src="https://raw.githubusercontent.com/YashDoesCode/YashDoesCode/main/assets/activity-graph.svg" width="100%" />
 </p>
 
 ---
