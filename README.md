@@ -36,6 +36,10 @@
   </p>
 </div>
 
+<p align="center">
+  <img alt="Total Activity Graph" src="./assets/activity-graph.svg" width="100%" />
+</p>
+
 ---
 
 <h3 align="left">
@@ -77,7 +81,7 @@
 | :--- | :--- |
 | <img src="./Stealth%20Favicon.png" width="20" height="20" style="vertical-align: middle; margin-right: 5px;" /> **Stealth AI - Steadfast Workspace Agent** | Cross-platform, privacy-first AI agent that helps you build software with a systems-thinking-first approach and acts as a writing assistant for work and personal tasks |
 | <img src="./invision-logo.png" width="20" height="20" style="vertical-align: middle; margin-right: 5px;" /> **Invision AI - Realtime Criminal Intelligence Monitoring System** | A Distributed, Privacy-Preserving IVA AI for Proactive Urban Criminal Intelligence. |
-| <img src="./DataPilot FaviconX.png" width="20" height="20" style="vertical-align: middle; margin-right: 5px;" /> **DataPilot - Autopilot for Data Science** | Open-source automated data science preprocessing and deployment pipeline. |
+| <img src="./DataPilot%20FaviconX.png" width="20" height="20" style="vertical-align: middle; margin-right: 5px;" /> **DataPilot - Autopilot for Data Science** | Open-source automated data science preprocessing and deployment pipeline. |
 
 </div>
 
@@ -90,4 +94,3 @@
 * **Build-X & Code & Conquer:** 1st Place Winner
 * **Frank Anthony Memorial Debate:** CISCE National Finalist
 * **Publication:** *An Engineer’s Guide To Database Orchestration - Build Systems that Don’t Break You*
-
