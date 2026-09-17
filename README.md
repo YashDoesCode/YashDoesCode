@@ -16,13 +16,13 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/yashsrivastava07">
-    <img src="https://img.shields.io/badge/LinkedIn-333333?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-333333?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=333333" alt="LinkedIn"/>
   </a>
   <a href="mailto:business.theyashsrivastava07@gmail.com">
-    <img src="https://img.shields.io/badge/Email-333333?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/EMAIL-CONTACT-333333?style=for-the-badge&logo=gmail&logoColor=white&labelColor=333333" alt="Email"/>
   </a>
   <a href="https://github.com/YashDoesCode">
-    <img src="https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GITHUB-VISIT-333333?style=for-the-badge&logo=github&logoColor=white&labelColor=333333" alt="GitHub"/>
   </a>
 </p>
 
