@@ -34,11 +34,16 @@
   </p>
 </div>
 
+<div align="right">
+  <details>
+    <summary><b>🔄 Toggle Yearly Graph</b></summary>
+    <p align="center">
+      <img alt="Yearly Activity Graph" src="https://raw.githubusercontent.com/YashDoesCode/YashDoesCode/main/assets/activity-graph-yearly.svg" width="100%" />
+    </p>
+  </details>
+</div>
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/YashDoesCode/YashDoesCode/raw/main/assets/activity-graph-yearly.svg" />
-    <img alt="Total Activity Graph" src="https://github.com/YashDoesCode/YashDoesCode/raw/main/assets/activity-graph.svg" width="100%" />
-  </picture>
+  <img alt="Total Activity Graph" src="https://raw.githubusercontent.com/YashDoesCode/YashDoesCode/main/assets/activity-graph.svg" width="100%" />
 </p>
 
 ---
