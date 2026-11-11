@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="410" viewBox="0 0 880 410" role="img" aria-label="How I work: where my time goes">
+<style>
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; }
+    .grid-ring, .axis-line, .axis-lbl { opacity: 1 !important; }
+    .radar-shape { opacity: 1 !important; }
+    .radar-dot { opacity: 1 !important; }
+    .summary-line, .note-text { opacity: 1 !important; }
+    .num { opacity: 0 !important; animation: none !important; }
+    .f19 { opacity: 1 !important; }
+  }
+  .subhead { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 12px; font-weight: 600; letter-spacing: .14em; fill: #3fb950; }
+  .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif; font-size: 26px; font-weight: 700; letter-spacing: -.02em; fill: #f0f6fc; }
+  .grid-ring, .axis-line { stroke: #262c36; stroke-width: 1px; opacity: 0; animation: fadeIn 0.4s ease-out 1.5s forwards; }
+  .axis-lbl { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif; font-size: 14px; font-weight: 600; fill: #9198a1; opacity: 0; animation: fadeIn 0.4s ease-out 1.5s forwards; }
+  .radar-shape { fill: #3fb950; fill-opacity: .22; stroke: #3fb950; stroke-width: 2.5; stroke-linejoin: round; }
+  .radar-dot { fill: #3fb950; opacity: 0; animation: fadeIn 0.2s ease-out 1.5s forwards; }
+  .summary-line { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif; font-size: 22px; font-weight: 700; fill: #f0f6fc; opacity: 0; animation: fadeIn 0.6s ease-out 2.5s forwards; }
+  .note-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif; font-size: 15px; fill: #9198a1; opacity: 0; animation: fadeIn 0.6s ease-out 2.7s forwards; }
+  .num { opacity: 0; font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 12px; font-weight: 700; fill: #f0f6fc; }
+
+  .f0 { opacity: 1; animation: hideF0 0.001s 1.500s forwards; }
+  .f1 { animation: flashFrame 0.063s 1.500s forwards; }
+  .f2 { animation: flashFrame 0.063s 1.563s forwards; }
+  .f3 { animation: flashFrame 0.063s 1.626s forwards; }
+  .f4 { animation: flashFrame 0.063s 1.689s forwards; }
+  .f5 { animation: flashFrame 0.063s 1.753s forwards; }
+  .f6 { animation: flashFrame 0.063s 1.816s forwards; }
+  .f7 { animation: flashFrame 0.063s 1.879s forwards; }
+  .f8 { animation: flashFrame 0.063s 1.942s forwards; }
+  .f9 { animation: flashFrame 0.063s 2.005s forwards; }
+  .f10 { animation: flashFrame 0.063s 2.068s forwards; }
+  .f11 { animation: flashFrame 0.063s 2.132s forwards; }
+  .f12 { animation: flashFrame 0.063s 2.195s forwards; }
+  .f13 { animation: flashFrame 0.063s 2.258s forwards; }
+  .f14 { animation: flashFrame 0.063s 2.321s forwards; }
+  .f15 { animation: flashFrame 0.063s 2.384s forwards; }
+  .f16 { animation: flashFrame 0.063s 2.447s forwards; }
+  .f17 { animation: flashFrame 0.063s 2.511s forwards; }
+  .f18 { animation: flashFrame 0.063s 2.574s forwards; }
+  .f19 { animation: showFinal 0.001s 2.637s forwards; }
+
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
+  @keyframes hideF0 {
+    to { opacity: 0; }
+  }
+  @keyframes flashFrame {
+    0% { opacity: 1; }
+    99% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  @keyframes showFinal {
+    to { opacity: 1; }
+  }
+
+  @media (prefers-color-scheme: light) {
+    .subhead { fill: #1a7f37; }
+    .title { fill: #1f2328; }
+    .grid-ring, .axis-line { stroke: #e4e8ec; }
+    .axis-lbl { fill: #59636e; }
+    .radar-shape { fill: #1a7f37; stroke: #1a7f37; fill-opacity: .2; }
+    .radar-dot { fill: #1a7f37; }
+    .num { fill: #1f2328; }
+    .summary-line { fill: #1f2328; }
+    .note-text { fill: #59636e; }
+  }
+</style>
+<text class="subhead" x="32" y="38">HOW I WORK</text>
+<text class="title" x="32" y="70">Where my time goes </text>
+  
+<polygon points="300.0,205.5 330.9,228.0 319.1,264.3 280.9,264.3 269.1,228.0" fill="none" class="grid-ring"/><polygon points="300.0,173.0 361.8,217.9 338.2,290.6 261.8,290.6 238.2,217.9" fill="none" class="grid-ring"/><polygon points="300.0,140.5 392.7,207.9 357.3,316.9 242.7,316.9 207.3,207.9" fill="none" class="grid-ring"/><polygon points="300.0,108.0 423.6,197.8 376.4,343.2 223.6,343.2 176.4,197.8" fill="none" class="grid-ring"/>
+<line x1="300.0" y1="238.0" x2="300.0" y2="108.0" class="axis-line"/><line x1="300.0" y1="238.0" x2="423.6" y2="197.8" class="axis-line"/><line x1="300.0" y1="238.0" x2="376.4" y2="343.2" class="axis-line"/><line x1="300.0" y1="238.0" x2="223.6" y2="343.2" class="axis-line"/><line x1="300.0" y1="238.0" x2="176.4" y2="197.8" class="axis-line"/>
+<polygon points="300.0,238.0 300.0,238.0 300.0,238.0 300.0,238.0 300.0,238.0" class="radar-shape">
+  <animate attributeName="points" begin="1.5s" dur="1.2s" from="300.0,238.0 300.0,238.0 300.0,238.0 300.0,238.0 300.0,238.0" to="300.0,108.0 371.6,214.7 306.1,246.4 269.1,280.5 250.1,221.8" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/>
+</polygon>
+<circle cx="300.0" cy="238.0" r="4" class="radar-dot"><animate attributeName="cx" begin="1.5s" dur="1.2s" from="300.0" to="300.0" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/><animate attributeName="cy" begin="1.5s" dur="1.2s" from="238.0" to="108.0" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/></circle><circle cx="300.0" cy="238.0" r="4" class="radar-dot"><animate attributeName="cx" begin="1.5s" dur="1.2s" from="300.0" to="371.6" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/><animate attributeName="cy" begin="1.5s" dur="1.2s" from="238.0" to="214.7" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/></circle><circle cx="300.0" cy="238.0" r="4" class="radar-dot"><animate attributeName="cx" begin="1.5s" dur="1.2s" from="300.0" to="306.1" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/><animate attributeName="cy" begin="1.5s" dur="1.2s" from="238.0" to="246.4" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/></circle><circle cx="300.0" cy="238.0" r="4" class="radar-dot"><animate attributeName="cx" begin="1.5s" dur="1.2s" from="300.0" to="269.1" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/><animate attributeName="cy" begin="1.5s" dur="1.2s" from="238.0" to="280.5" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/></circle><circle cx="300.0" cy="238.0" r="4" class="radar-dot"><animate attributeName="cx" begin="1.5s" dur="1.2s" from="300.0" to="250.1" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/><animate attributeName="cy" begin="1.5s" dur="1.2s" from="238.0" to="221.8" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/></circle>
+<text x="300" y="80" text-anchor="middle" class="axis-lbl">Commits</text><text x="300" y="97" text-anchor="middle" class="num f0">0</text><text x="300" y="97" text-anchor="middle" class="num f1">130</text><text x="300" y="97" text-anchor="middle" class="num f2">252</text><text x="300" y="97" text-anchor="middle" class="num f3">366</text><text x="300" y="97" text-anchor="middle" class="num f4">471</text><text x="300" y="97" text-anchor="middle" class="num f5">568</text><text x="300" y="97" text-anchor="middle" class="num f6">658</text><text x="300" y="97" text-anchor="middle" class="num f7">739</text><text x="300" y="97" text-anchor="middle" class="num f8">813</text><text x="300" y="97" text-anchor="middle" class="num f9">879</text><text x="300" y="97" text-anchor="middle" class="num f10">937</text><text x="300" y="97" text-anchor="middle" class="num f11">989</text><text x="300" y="97" text-anchor="middle" class="num f12">1,033</text><text x="300" y="97" text-anchor="middle" class="num f13">1,070</text><text x="300" y="97" text-anchor="middle" class="num f14">1,100</text><text x="300" y="97" text-anchor="middle" class="num f15">1,124</text><text x="300" y="97" text-anchor="middle" class="num f16">1,142</text><text x="300" y="97" text-anchor="middle" class="num f17">1,154</text><text x="300" y="97" text-anchor="middle" class="num f18">1,160</text><text x="300" y="97" text-anchor="middle" class="num f19">1,162</text><text x="448" y="188" text-anchor="start" class="axis-lbl">Pull requests</text><text x="448" y="205" text-anchor="start" class="num f0">0</text><text x="448" y="205" text-anchor="start" class="num f1">5</text><text x="448" y="205" text-anchor="start" class="num f2">10</text><text x="448" y="205" text-anchor="start" class="num f3">14</text><text x="448" y="205" text-anchor="start" class="num f4">18</text><text x="448" y="205" text-anchor="start" class="num f5">22</text><text x="448" y="205" text-anchor="start" class="num f6">25</text><text x="448" y="205" text-anchor="start" class="num f7">29</text><text x="448" y="205" text-anchor="start" class="num f8">31</text><text x="448" y="205" text-anchor="start" class="num f9">34</text><text x="448" y="205" text-anchor="start" class="num f10">36</text><text x="448" y="205" text-anchor="start" class="num f11">38</text><text x="448" y="205" text-anchor="start" class="num f12">40</text><text x="448" y="205" text-anchor="start" class="num f13">41</text><text x="448" y="205" text-anchor="start" class="num f14">43</text><text x="448" y="205" text-anchor="start" class="num f15">44</text><text x="448" y="205" text-anchor="start" class="num f16">44</text><text x="448" y="205" text-anchor="start" class="num f17">45</text><text x="448" y="205" text-anchor="start" class="num f18">45</text><text x="448" y="205" text-anchor="start" class="num f19">45</text><text x="392" y="362" text-anchor="start" class="axis-lbl">Reviews</text><text x="392" y="379" text-anchor="start" class="num f0">0</text><text x="392" y="379" text-anchor="start" class="num f1">0</text><text x="392" y="379" text-anchor="start" class="num f2">0</text><text x="392" y="379" text-anchor="start" class="num f3">0</text><text x="392" y="379" text-anchor="start" class="num f4">0</text><text x="392" y="379" text-anchor="start" class="num f5">0</text><text x="392" y="379" text-anchor="start" class="num f6">0</text><text x="392" y="379" text-anchor="start" class="num f7">0</text><text x="392" y="379" text-anchor="start" class="num f8">0</text><text x="392" y="379" text-anchor="start" class="num f9">0</text><text x="392" y="379" text-anchor="start" class="num f10">0</text><text x="392" y="379" text-anchor="start" class="num f11">0</text><text x="392" y="379" text-anchor="start" class="num f12">0</text><text x="392" y="379" text-anchor="start" class="num f13">0</text><text x="392" y="379" text-anchor="start" class="num f14">0</text><text x="392" y="379" text-anchor="start" class="num f15">0</text><text x="392" y="379" text-anchor="start" class="num f16">0</text><text x="392" y="379" text-anchor="start" class="num f17">0</text><text x="392" y="379" text-anchor="start" class="num f18">0</text><text x="392" y="379" text-anchor="start" class="num f19">0</text><text x="208" y="362" text-anchor="end" class="axis-lbl">Issues</text><text x="208" y="379" text-anchor="end" class="num f0">0</text><text x="208" y="379" text-anchor="end" class="num f1">1</text><text x="208" y="379" text-anchor="end" class="num f2">2</text><text x="208" y="379" text-anchor="end" class="num f3">3</text><text x="208" y="379" text-anchor="end" class="num f4">4</text><text x="208" y="379" text-anchor="end" class="num f5">5</text><text x="208" y="379" text-anchor="end" class="num f6">6</text><text x="208" y="379" text-anchor="end" class="num f7">7</text><text x="208" y="379" text-anchor="end" class="num f8">8</text><text x="208" y="379" text-anchor="end" class="num f9">8</text><text x="208" y="379" text-anchor="end" class="num f10">9</text><text x="208" y="379" text-anchor="end" class="num f11">9</text><text x="208" y="379" text-anchor="end" class="num f12">10</text><text x="208" y="379" text-anchor="end" class="num f13">10</text><text x="208" y="379" text-anchor="end" class="num f14">10</text><text x="208" y="379" text-anchor="end" class="num f15">11</text><text x="208" y="379" text-anchor="end" class="num f16">11</text><text x="208" y="379" text-anchor="end" class="num f17">11</text><text x="208" y="379" text-anchor="end" class="num f18">11</text><text x="208" y="379" text-anchor="end" class="num f19">11</text><text x="152" y="188" text-anchor="end" class="axis-lbl">New repos</text><text x="152" y="205" text-anchor="end" class="num f0">0</text><text x="152" y="205" text-anchor="end" class="num f1">1</text><text x="152" y="205" text-anchor="end" class="num f2">2</text><text x="152" y="205" text-anchor="end" class="num f3">3</text><text x="152" y="205" text-anchor="end" class="num f4">4</text><text x="152" y="205" text-anchor="end" class="num f5">5</text><text x="152" y="205" text-anchor="end" class="num f6">6</text><text x="152" y="205" text-anchor="end" class="num f7">7</text><text x="152" y="205" text-anchor="end" class="num f8">8</text><text x="152" y="205" text-anchor="end" class="num f9">8</text><text x="152" y="205" text-anchor="end" class="num f10">9</text><text x="152" y="205" text-anchor="end" class="num f11">9</text><text x="152" y="205" text-anchor="end" class="num f12">10</text><text x="152" y="205" text-anchor="end" class="num f13">10</text><text x="152" y="205" text-anchor="end" class="num f14">10</text><text x="152" y="205" text-anchor="end" class="num f15">11</text><text x="152" y="205" text-anchor="end" class="num f16">11</text><text x="152" y="205" text-anchor="end" class="num f17">11</text><text x="152" y="205" text-anchor="end" class="num f18">11</text><text x="152" y="205" text-anchor="end" class="num f19">11</text>
+<text x="560" y="170" class="summary-line">Mostly shipping code.</text>
+<text x="560" y="214" class="note-text">Scales are logarithmic, so a few</text>
+<text x="560" y="235" class="note-text">reviews still show. Numbers are the</text>
+<text x="560" y="256" class="note-text">last 12 months of public, private and org activity.</text>
+</svg>

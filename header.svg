@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="260" viewBox="0 0 880 260" role="img" aria-label="Yash Srivastava: the year in data">
+<style>
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; }
+  }
+  .subhead { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 12px; font-weight: 600; letter-spacing: .14em; fill: #3fb950; }
+  .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif; font-size: 46px; font-weight: 700; letter-spacing: -.04em; fill: #f0f6fc; }
+  .bio { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif; font-size: 16px; fill: #d1d7e0; }
+  .divider { stroke: #262c36; stroke-width: 1px; }
+  .stat-contrib { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif; font-size: 32px; font-weight: 700; letter-spacing: -.03em; fill: #3fb950; }
+  .stat-val { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif; font-size: 32px; font-weight: 700; letter-spacing: -.03em; fill: #f0f6fc; }
+  .stat-lbl { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 12px; fill: #9198a1; }
+  .updated { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif; font-size: 10px; font-weight: 500; fill: #7d8590; }
+
+  @media (prefers-color-scheme: light) {
+    .subhead { fill: #1a7f37; }
+    .title { fill: #1f2328; }
+    .bio { fill: #353c44; }
+    .divider { stroke: #e4e8ec; }
+    .stat-contrib { fill: #1a7f37; }
+    .stat-val { fill: #1f2328; }
+    .stat-lbl { fill: #59636e; }
+    .updated { fill: #656d76; }
+  }
+</style>
+<text class="subhead" x="32" y="38">THE YEAR IN DATA · 2026</text>
+<text class="title" x="30" y="90">Yash Srivastava</text>
+<text class="bio" x="32" y="124">Machine Learning from Stanford | Meta Certified Full-Stack Developer</text>
+<line class="divider" x1="32" y1="150" x2="848" y2="150"/>
+<text class="stat-contrib" x="32" y="196">1,933</text>
+<text class="stat-lbl" x="32" y="218">contributions</text>
+<text class="stat-val" x="236" y="196">885</text>
+<text class="stat-lbl" x="236" y="218">commits</text>
+<text class="stat-val" x="440" y="196">33</text>
+<text class="stat-lbl" x="440" y="218">pull requests</text>
+<text class="stat-val" x="644" y="196">0</text>
+<text class="stat-lbl" x="644" y="218">reviews</text>
+<text class="updated" x="848" y="244" text-anchor="end">updated Nov 11, 2026</text>
+</svg>

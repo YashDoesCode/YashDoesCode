@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="284" viewBox="0 0 880 284" role="img" aria-label="Contributions week by week; longest streak 154 days">
+<defs>
+  <linearGradient id="areaGradient" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#3fb950" stop-opacity="0.32"/>
+    <stop offset="100%" stop-color="#3fb950" stop-opacity="0.0"/>
+  </linearGradient>
+  <linearGradient id="areaGradientLight" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#1a7f37" stop-opacity="0.25"/>
+    <stop offset="100%" stop-color="#1a7f37" stop-opacity="0.0"/>
+  </linearGradient>
+</defs>
+<style>
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; }
+    .line { stroke-dashoffset: 0 !important; }
+    .area { opacity: 1 !important; }
+    .streak-band { opacity: 0.14 !important; }
+    .peak-dot { opacity: 1 !important; transform: none !important; }
+    .peak-label { opacity: 1 !important; }
+  }
+  .subhead { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 12px; font-weight: 600; letter-spacing: .14em; fill: #3fb950; }
+  .headline { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif; font-size: 26px; font-weight: 700; letter-spacing: -.02em; fill: #f0f6fc; }
+  .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif; font-size: 15px; fill: #9198a1; }
+  .divider { stroke: #262c36; stroke-width: 1px; }
+  .lbl { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 11px; fill: #7d8590; text-anchor: middle; }
+  .streak-band { fill: #3fb950; opacity: 0; animation: bandFade 0.8s ease-out 1.6s forwards; }
+  .area { fill: url(#areaGradient); opacity: 0; animation: areaFade 0.8s ease-out 1.6s forwards; }
+  .line { fill: none; stroke: #3fb950; stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; animation: drawLine 2s ease-out forwards; }
+  .peak-dot { fill: #3fb950; opacity: 0; transform-origin: 769.5px 115.0px; animation: popDot 0.5s ease-out 2.0s forwards, pulseDot 2.5s ease-in-out 2.5s infinite; }
+  .peak-label { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 11px; font-weight: 600; fill: #3fb950; opacity: 0; animation: areaFade 0.5s ease-out 2.1s forwards; }
+
+  @keyframes drawLine {
+    to { stroke-dashoffset: 0; }
+  }
+  @keyframes bandFade {
+    to { opacity: 0.14; }
+  }
+  @keyframes areaFade {
+    to { opacity: 1; }
+  }
+  @keyframes popDot {
+    0% { opacity: 0; transform: scale(0); }
+    70% { opacity: 1; transform: scale(1.3); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+  @keyframes pulseDot {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.25); }
+  }
+
+  @media (prefers-color-scheme: light) {
+    .subhead { fill: #1a7f37; }
+    .headline { fill: #1f2328; }
+    .subtitle { fill: #59636e; }
+    .divider { stroke: #e4e8ec; }
+    .lbl { fill: #59636e; }
+    .streak-band { fill: #1a7f37; }
+    .area { fill: url(#areaGradientLight); }
+    .line { stroke: #1a7f37; }
+    .peak-dot { fill: #1a7f37; }
+    .peak-label { fill: #1a7f37; }
+  }
+</style>
+<text class="subhead" x="32" y="38">THE YEAR, WEEK BY WEEK</text>
+<text class="headline" x="32" y="68">Longest streak: 154 days in a row</text>
+<text class="subtitle" x="32" y="94">From Jul 31, 2025 to Dec 31, 2025 · all-time best</text>
+<rect class="streak-band" x="47.7" y="100.0" width="109.8" height="150.0" rx="4"/>
+<path d="M32.0,239.9 L47.7,242.1 L63.4,241.0 L79.1,241.6 L94.8,243.2 L110.5,241.6 L126.2,240.3 L141.8,245.8 L157.5,246.5 L173.2,248.3 L188.9,246.0 L204.6,241.0 L220.3,241.0 L236.0,248.0 L251.7,246.3 L267.4,245.6 L283.1,243.0 L298.8,247.8 L314.5,248.2 L330.2,247.4 L345.8,249.3 L361.5,247.1 L377.2,247.6 L392.9,243.4 L408.6,248.2 L424.3,246.1 L440.0,249.4 L455.7,248.5 L471.4,248.3 L487.1,249.1 L502.8,247.2 L518.5,245.8 L534.2,245.0 L549.8,248.5 L565.5,248.7 L581.2,245.8 L596.9,247.8 L612.6,242.5 L628.3,239.7 L644.0,243.4 L659.7,243.6 L675.4,243.9 L691.1,234.4 L706.8,243.0 L722.5,242.7 L738.2,244.5 L753.8,213.7 L769.5,115.0 L785.2,248.3 L800.9,249.1 L816.6,243.6 L832.3,248.9 L848.0,245.0 L848.0,250.0 L32.0,250.0 Z" class="area"/>
+<path d="M32.0,239.9 L47.7,242.1 L63.4,241.0 L79.1,241.6 L94.8,243.2 L110.5,241.6 L126.2,240.3 L141.8,245.8 L157.5,246.5 L173.2,248.3 L188.9,246.0 L204.6,241.0 L220.3,241.0 L236.0,248.0 L251.7,246.3 L267.4,245.6 L283.1,243.0 L298.8,247.8 L314.5,248.2 L330.2,247.4 L345.8,249.3 L361.5,247.1 L377.2,247.6 L392.9,243.4 L408.6,248.2 L424.3,246.1 L440.0,249.4 L455.7,248.5 L471.4,248.3 L487.1,249.1 L502.8,247.2 L518.5,245.8 L534.2,245.0 L549.8,248.5 L565.5,248.7 L581.2,245.8 L596.9,247.8 L612.6,242.5 L628.3,239.7 L644.0,243.4 L659.7,243.6 L675.4,243.9 L691.1,234.4 L706.8,243.0 L722.5,242.7 L738.2,244.5 L753.8,213.7 L769.5,115.0 L785.2,248.3 L800.9,249.1 L816.6,243.6 L832.3,248.9 L848.0,245.0" class="line" pathLength="1"/>
+<line class="divider" x1="32" y1="250" x2="848" y2="250"/>
+<text class="lbl" x="32.0" y="272">Nov</text><text class="lbl" x="94.8" y="272">Dec</text><text class="lbl" x="157.5" y="272">Jan</text><text class="lbl" x="220.3" y="272">Feb</text><text class="lbl" x="283.1" y="272">Mar</text><text class="lbl" x="361.5" y="272">Apr</text><text class="lbl" x="424.3" y="272">May</text><text class="lbl" x="502.8" y="272">Jun</text><text class="lbl" x="565.5" y="272">Jul</text><text class="lbl" x="628.3" y="272">Aug</text><text class="lbl" x="706.8" y="272">Sep</text><text class="lbl" x="769.5" y="272">Oct</text><text class="lbl" x="832.3" y="272">Nov</text>
+<circle class="peak-dot" cx="769.5" cy="115.0" r="4.5"/>
+<text class="peak-label" x="759.5" y="105.0" text-anchor="end">736 · week of Oct 4</text>
+</svg>
