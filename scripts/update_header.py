@@ -185,6 +185,8 @@ def render_svg(data: dict[str, Any]) -> str:
 def main() -> None:
     token = get_token()
     username = os.environ.get("GITHUB_ACTOR") or os.environ.get("GH_USER") or DEFAULT_USER
+    if not username or "[bot]" in username:
+        username = DEFAULT_USER
     data = fetch_header_data(token, username)
     svg_content = render_svg(data)
     with OUTPUT_SVG.open("w", encoding="utf-8") as f:

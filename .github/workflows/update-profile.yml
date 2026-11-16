@@ -1,0 +1,108 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/**"
+      - ".github/workflows/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: true
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update header card
+        id: header
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GH_USER: YashDoesCode
+        run: python3 scripts/update_header.py
+
+      - name: Generate activity graph & heatmap
+        id: activity
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GH_USER: YashDoesCode
+        run: python3 scripts/generate_activity_graph.py
+
+      - name: Update timeline card
+        id: timeline
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GH_USER: YashDoesCode
+        run: python3 scripts/update_timeline.py
+
+      - name: Update radar card
+        id: radar
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GH_USER: YashDoesCode
+        run: python3 scripts/update_radar.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add header.svg contrib-heatmap.svg timeline.svg radar.svg data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update profile cards [skip ci]"
+            git push
+          fi
+
+      - name: Verify all scripts succeeded
+        if: always()
+        run: |
+          FAILED=0
+          if [ "${{ steps.header.outcome }}" != "success" ]; then
+            echo "::error::update_header.py failed"
+            FAILED=1
+          fi
+          if [ "${{ steps.activity.outcome }}" != "success" ]; then
+            echo "::error::generate_activity_graph.py failed"
+            FAILED=1
+          fi
+          if [ "${{ steps.timeline.outcome }}" != "success" ]; then
+            echo "::error::update_timeline.py failed"
+            FAILED=1
+          fi
+          if [ "${{ steps.radar.outcome }}" != "success" ]; then
+            echo "::error::update_radar.py failed"
+            FAILED=1
+          fi
+          if [ "$FAILED" -ne 0 ]; then
+            echo "One or more profile card scripts failed."
+            exit 1
+          fi

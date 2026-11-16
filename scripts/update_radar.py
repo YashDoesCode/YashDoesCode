@@ -289,6 +289,8 @@ def render_svg(stats: dict[str, int]) -> str:
 def main() -> None:
     token = get_token()
     username = os.environ.get("GITHUB_ACTOR") or os.environ.get("GH_USER") or DEFAULT_USER
+    if not username or "[bot]" in username:
+        username = DEFAULT_USER
     stats = fetch_radar_data(token, username)
     svg_content = render_svg(stats)
     with OUTPUT_SVG.open("w", encoding="utf-8") as f:
